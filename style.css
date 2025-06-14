@@ -1,0 +1,49 @@
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #f9fafb;
+  color: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  text-align: center;
+  max-width: 600px;
+  padding: 2rem;
+}
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+.tagline {
+  font-size: 1.1rem;
+  margin: 0.5rem 0 2rem;
+  color: #555;
+}
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.social {
+  text-decoration: none;
+  color: white;
+  background-color: #007acc;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+.social:hover {
+  background-color: #005fa3;
+}
